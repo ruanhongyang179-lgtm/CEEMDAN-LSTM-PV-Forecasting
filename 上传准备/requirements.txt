@@ -1,7 +1,0 @@
-# 轻量级依赖清单（Windows / 无 GPU / 无 CUDA / Python 3.10+）
-# 论文原始依赖为 PyTorch + PyEMD + scikit-learn（需 GPU/大数据栈），
-# 本项目以纯 numpy 等价实现（含手写三次样条与 Hilbert 变换），
-# 故仅保留以下轻量包，无需联网安装任何额外组件。
-numpy>=1.23
-matplotlib>=3.6
-pillow>=9.0
